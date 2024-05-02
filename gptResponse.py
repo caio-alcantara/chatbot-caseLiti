@@ -9,7 +9,7 @@ auth_token = 'AUTH_TOKEN'
 whatsapp_number = 'whatsapp:+14155238886'  # Número do WhatsApp Twilio
 
 # chave de API OpenAI
-api_key = 'sk-proj-eJQ6H4KCZ72luJP2hjL8T3BlbkFJwKOqvoqBkPo6PeVWcZjt'
+api_key = 'sk'
 
 twilio_client = Client(account_sid, auth_token)
 openai_client = OpenAI(api_key=api_key)
