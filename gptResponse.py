@@ -4,12 +4,8 @@ from twilio.twiml.messaging_response import MessagingResponse
 from openai import OpenAI
 
 # credenciais Twilio 
-account_sid = 'ACCOUNT_SID'
-auth_token = 'AUTH_TOKEN'
-whatsapp_number = 'whatsapp'  # Número do WhatsApp Twilio
 
 # chave de API OpenAI
-api_key = ''
 
 twilio_client = Client(account_sid, auth_token)
 openai_client = OpenAI(api_key=api_key)
